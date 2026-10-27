@@ -1,0 +1,138 @@
+{
+  "schema_version": "2.1",
+  "id": "example.generic-tv-remote",
+  "name": "Generic TV remote — illustrative",
+  "description": "Generic D-pad remote. Whether events reach the IME depends on the device; Assistant-key interception is not possible.",
+  "products": [
+    "android_tv"
+  ],
+  "scope": "ime_active",
+  "languages": [
+    "en",
+    "he"
+  ],
+  "default_language": "en",
+  "behavior": {
+    "unmatched_key": "pass_through"
+  },
+  "priority": 0,
+  "device_match": {
+    "input": {
+      "source": "dpad"
+    }
+  },
+  "bindings": [
+    {
+      "id": "remote_left",
+      "trigger": {
+        "key_code": "KEYCODE_DPAD_LEFT",
+        "phase": "down",
+        "repeat": "allow"
+      },
+      "action": {
+        "type": "ui.focus.move",
+        "direction": "left"
+      },
+      "consume": true
+    },
+    {
+      "id": "remote_right",
+      "trigger": {
+        "key_code": "KEYCODE_DPAD_RIGHT",
+        "phase": "down",
+        "repeat": "allow"
+      },
+      "action": {
+        "type": "ui.focus.move",
+        "direction": "right"
+      },
+      "consume": true
+    },
+    {
+      "id": "remote_up",
+      "trigger": {
+        "key_code": "KEYCODE_DPAD_UP",
+        "phase": "down",
+        "repeat": "allow"
+      },
+      "action": {
+        "type": "ui.focus.move",
+        "direction": "up"
+      },
+      "consume": true
+    },
+    {
+      "id": "remote_down",
+      "trigger": {
+        "key_code": "KEYCODE_DPAD_DOWN",
+        "phase": "down",
+        "repeat": "allow"
+      },
+      "action": {
+        "type": "ui.focus.move",
+        "direction": "down"
+      },
+      "consume": true
+    },
+    {
+      "id": "remote_ok",
+      "trigger": {
+        "key_code": "KEYCODE_DPAD_CENTER",
+        "phase": "down",
+        "repeat": "first"
+      },
+      "action": {
+        "type": "ui.focus.activate"
+      },
+      "consume": true
+    },
+    {
+      "id": "remote_enter",
+      "trigger": {
+        "key_code": "KEYCODE_ENTER",
+        "phase": "down",
+        "repeat": "first"
+      },
+      "action": {
+        "type": "ui.focus.activate"
+      },
+      "consume": true
+    },
+    {
+      "id": "remote_back",
+      "trigger": {
+        "key_code": "KEYCODE_BACK",
+        "phase": "down",
+        "repeat": "first"
+      },
+      "action": {
+        "type": "keyboard.hide"
+      },
+      "consume": true
+    },
+    {
+      "id": "remote_optional_record",
+      "trigger": {
+        "key_code": "KEYCODE_MEDIA_RECORD",
+        "phase": "down",
+        "repeat": "first"
+      },
+      "action": {
+        "type": "voice.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "remote_optional_blue",
+      "trigger": {
+        "key_code": "KEYCODE_PROG_BLUE",
+        "phase": "down",
+        "repeat": "first"
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    }
+  ]
+}

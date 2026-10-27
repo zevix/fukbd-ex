@@ -1,0 +1,15 @@
+fukbd-ex
+Copyright (c) 2026 the copyright holder of fukbd-ex (GitHub account zevix).
+Licensed under the fukbd-ex Source First License (see LICENSE). Draft, pending legal review.
+
+fukbd-ex is built together with a modified copy of FUTO Keyboard:
+  FUTO Keyboard, Copyright FUTO Holdings, Inc.
+  Licensed under the FUTO Source First License 1.1 (LICENSE.md in https://github.com/futo-org/android-keyboard).
+  Modified by the fukbd project: a generic hardware-key decoder hook and build integration.
+  Modified fork: https://github.com/zevix/android-keyboard
+  FUTO Keyboard includes software from the Android Open Source Project; see the NOTICE file in that
+  repository.
+
+Third-party libraries used by fukbd-ex:
+  kotlinx.serialization — Apache License 2.0 — https://github.com/Kotlin/kotlinx.serialization
+  networknt json-schema-validator (tests only) — Apache License 2.0 — https://github.com/networknt/json-schema-validator

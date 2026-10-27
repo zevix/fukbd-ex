@@ -1,0 +1,8240 @@
+{
+  "schema_version": "2.1",
+  "id": "fixture.base",
+  "name": "Fixture base",
+  "products": [
+    "android_physical"
+  ],
+  "scope": "ime_active",
+  "languages": [
+    "en",
+    "he"
+  ],
+  "default_language": "en",
+  "behavior": {
+    "unmatched_key": "pass_through"
+  },
+  "device_match": {
+    "input": {
+      "source": "keyboard"
+    }
+  },
+  "bindings": [
+    {
+      "id": "b0",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b1",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b2",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b3",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b4",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b5",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b6",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b7",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b8",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b9",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b10",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b11",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b12",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b13",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b14",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b15",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b16",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b17",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b18",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b19",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b20",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b21",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b22",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b23",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b24",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b25",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b26",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b27",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b28",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b29",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b30",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b31",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b32",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b33",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b34",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b35",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b36",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b37",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b38",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b39",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b40",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b41",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b42",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b43",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b44",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b45",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b46",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b47",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b48",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b49",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b50",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b51",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b52",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b53",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b54",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b55",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b56",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b57",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b58",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b59",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b60",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b61",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b62",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b63",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b64",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b65",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b66",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b67",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b68",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b69",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b70",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b71",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b72",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b73",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b74",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b75",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b76",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b77",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b78",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b79",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b80",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b81",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b82",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b83",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b84",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b85",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b86",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b87",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b88",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b89",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b90",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b91",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b92",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b93",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b94",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b95",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b96",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b97",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b98",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b99",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b100",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b101",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b102",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b103",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b104",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b105",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b106",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b107",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b108",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b109",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b110",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b111",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b112",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b113",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b114",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b115",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b116",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b117",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b118",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b119",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b120",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b121",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b122",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b123",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b124",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b125",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b126",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b127",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b128",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b129",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b130",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b131",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b132",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b133",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b134",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b135",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b136",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b137",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b138",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b139",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b140",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b141",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b142",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b143",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b144",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b145",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b146",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b147",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b148",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b149",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b150",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b151",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b152",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b153",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b154",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b155",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b156",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b157",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b158",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b159",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b160",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b161",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b162",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b163",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b164",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b165",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b166",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b167",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b168",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b169",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b170",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b171",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b172",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b173",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b174",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b175",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b176",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b177",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b178",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b179",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b180",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b181",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b182",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b183",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b184",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b185",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b186",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b187",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b188",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b189",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b190",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b191",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b192",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b193",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b194",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b195",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b196",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b197",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b198",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b199",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b200",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b201",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b202",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b203",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b204",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b205",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b206",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b207",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b208",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b209",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b210",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b211",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b212",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b213",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b214",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b215",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b216",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b217",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b218",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b219",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b220",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b221",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b222",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b223",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b224",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b225",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b226",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b227",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b228",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b229",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b230",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b231",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b232",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b233",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b234",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b235",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b236",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b237",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b238",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b239",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b240",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b241",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b242",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b243",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b244",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b245",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b246",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b247",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b248",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b249",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b250",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b251",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b252",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b253",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b254",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b255",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b256",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b257",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b258",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b259",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b260",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b261",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b262",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b263",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b264",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b265",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b266",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b267",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b268",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b269",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b270",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b271",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b272",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b273",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b274",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b275",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b276",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b277",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b278",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b279",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b280",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b281",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b282",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b283",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b284",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b285",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b286",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b287",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b288",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b289",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b290",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b291",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b292",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b293",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b294",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b295",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b296",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b297",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b298",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b299",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b300",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b301",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b302",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b303",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b304",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b305",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b306",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b307",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b308",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b309",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b310",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b311",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b312",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b313",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b314",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b315",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b316",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b317",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b318",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b319",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b320",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b321",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b322",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b323",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b324",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b325",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b326",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b327",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b328",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b329",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b330",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b331",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b332",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b333",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b334",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b335",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b336",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b337",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b338",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b339",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b340",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b341",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b342",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b343",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b344",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b345",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b346",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b347",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b348",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b349",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b350",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b351",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b352",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b353",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b354",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b355",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b356",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b357",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b358",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b359",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b360",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b361",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b362",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b363",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b364",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b365",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b366",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b367",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b368",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b369",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b370",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b371",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b372",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b373",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b374",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b375",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b376",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b377",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b378",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b379",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b380",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b381",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b382",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b383",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b384",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b385",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b386",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b387",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b388",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b389",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b390",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b391",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b392",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b393",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b394",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b395",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b396",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b397",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b398",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b399",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b400",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b401",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b402",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b403",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b404",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b405",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b406",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b407",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b408",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b409",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b410",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b411",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b412",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b413",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b414",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b415",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b416",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b417",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b418",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b419",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b420",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b421",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b422",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b423",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b424",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b425",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b426",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b427",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b428",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b429",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b430",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b431",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b432",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b433",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b434",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b435",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b436",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b437",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b438",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b439",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b440",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b441",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b442",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b443",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b444",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b445",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b446",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b447",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b448",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b449",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b450",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b451",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b452",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b453",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b454",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b455",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b456",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b457",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b458",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b459",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b460",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b461",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b462",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b463",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b464",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b465",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b466",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b467",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b468",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b469",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b470",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b471",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b472",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b473",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b474",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b475",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b476",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b477",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b478",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b479",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b480",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b481",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b482",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b483",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b484",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b485",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b486",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b487",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b488",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b489",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b490",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b491",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b492",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b493",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b494",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b495",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b496",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b497",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b498",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b499",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b500",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b501",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b502",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b503",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b504",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b505",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b506",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b507",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b508",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b509",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b510",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b511",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "b512",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    }
+  ],
+  "keymap": {
+    "he": {
+      "normal": {
+        "KEYCODE_A": "ש",
+        "KEYCODE_T": "א"
+      }
+    }
+  }
+}

@@ -1,0 +1,500 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "fukbd device profile — schema 2.1",
+  "description": "Data-only per-input-device profile for the fukbd keyboards. Not executable code. Derived from the v0.5 draft schema 2 (fukbd-docs docs/reference/spec-v0.5); changes listed in fukbd-docs docs/projects/261027_m0-foundation/design.md.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "name",
+    "products",
+    "scope",
+    "languages",
+    "default_language",
+    "behavior",
+    "device_match"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "2.1"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:[._-][a-z0-9]+)*$",
+      "maxLength": 100
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 500
+    },
+    "products": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "android_physical",
+          "android_tv"
+        ]
+      },
+      "uniqueItems": true,
+      "minItems": 1,
+      "maxItems": 2
+    },
+    "scope": {
+      "const": "ime_active",
+      "description": "V1 remaps keys only while our input method receives events."
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]{2,3}(-[A-Z]{2})?$"
+      },
+      "uniqueItems": true,
+      "minItems": 1,
+      "maxItems": 8
+    },
+    "default_language": {
+      "type": "string",
+      "pattern": "^[a-z]{2,3}(-[A-Z]{2})?$"
+    },
+    "behavior": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "unmatched_key": {
+          "const": "pass_through"
+        }
+      },
+      "required": [
+        "unmatched_key"
+      ]
+    },
+    "priority": {
+      "type": "integer",
+      "minimum": -100,
+      "maximum": 100,
+      "default": 0,
+      "description": "Tie-breaker among profiles with equally specific matching metadata; per-device manual assignment overrides."
+    },
+    "device_match": {
+      "$ref": "#/$defs/deviceMatch"
+    },
+    "bindings": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/binding"
+      },
+      "maxItems": 512
+    },
+    "keymap": {
+      "type": "object",
+      "propertyNames": {
+        "pattern": "^[a-z]{2,3}(-[A-Z]{2})?$"
+      },
+      "maxProperties": 8,
+      "description": "Compact per-language key tables, expanded into bindings after the explicit ones. Expanded bindings ignore Ctrl/Alt/Meta chords.",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "minProperties": 1,
+        "properties": {
+          "normal": {
+            "type": "object",
+            "propertyNames": {
+              "pattern": "^KEYCODE_[A-Z0-9_]+$"
+            },
+            "maxProperties": 128,
+            "additionalProperties": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 8
+            }
+          },
+          "shift": {
+            "type": "object",
+            "propertyNames": {
+              "pattern": "^KEYCODE_[A-Z0-9_]+$"
+            },
+            "maxProperties": 128,
+            "additionalProperties": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 8
+            }
+          },
+          "symbols": {
+            "type": "object",
+            "propertyNames": {
+              "pattern": "^KEYCODE_[A-Z0-9_]+$"
+            },
+            "maxProperties": 128,
+            "additionalProperties": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 8
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "trigger": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "key_code": {
+          "type": "string",
+          "pattern": "^KEYCODE_[A-Z0-9_]+$",
+          "description": "Android KeyEvent KEYCODE_* constant name. Prefer over scan_code."
+        },
+        "scan_code": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Vendor/Linux scan code, only if verified on target hardware."
+        },
+        "phase": {
+          "enum": [
+            "down",
+            "up"
+          ]
+        },
+        "repeat": {
+          "enum": [
+            "first",
+            "allow"
+          ],
+          "description": "first ignores auto-repeat key-down events; allow accepts every repeat."
+        },
+        "modifiers": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "all": {
+              "type": "array",
+              "items": {
+                "enum": [
+                  "SHIFT",
+                  "ALT",
+                  "CTRL",
+                  "META",
+                  "SYM"
+                ]
+              },
+              "uniqueItems": true,
+              "maxItems": 5
+            },
+            "none": {
+              "type": "array",
+              "items": {
+                "enum": [
+                  "SHIFT",
+                  "ALT",
+                  "CTRL",
+                  "META",
+                  "SYM"
+                ]
+              },
+              "uniqueItems": true,
+              "maxItems": 5
+            }
+          },
+          "description": "all modifiers must be active; none must be inactive. Unlisted modifier states are ignored."
+        }
+      },
+      "required": [
+        "phase"
+      ],
+      "description": "Match delivered Android KeyEvent. If both key_code and scan_code are set both must match.",
+      "anyOf": [
+        {
+          "required": [
+            "key_code"
+          ]
+        },
+        {
+          "required": [
+            "scan_code"
+          ]
+        }
+      ]
+    },
+    "binding": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_\\-]*$"
+        },
+        "trigger": {
+          "$ref": "#/$defs/trigger"
+        },
+        "when": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "language": {
+              "type": "string",
+              "pattern": "^[a-z]{2,3}(-[A-Z]{2})?$"
+            },
+            "mode": {
+              "enum": [
+                "normal",
+                "symbols"
+              ]
+            }
+          }
+        },
+        "action": {
+          "$ref": "#/$defs/action"
+        },
+        "consume": {
+          "type": "boolean",
+          "description": "If true consume the key event instead of passing it to the target app."
+        }
+      },
+      "required": [
+        "id",
+        "trigger",
+        "action",
+        "consume"
+      ]
+    },
+    "action": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "const": "text.type"
+            },
+            "text": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 8
+            }
+          },
+          "required": [
+            "type",
+            "text"
+          ]
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "const": "editor.backspace"
+            }
+          },
+          "required": [
+            "type"
+          ]
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "const": "editor.enter"
+            }
+          },
+          "required": [
+            "type"
+          ]
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "const": "editor.space"
+            }
+          },
+          "required": [
+            "type"
+          ]
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "const": "editor.move_cursor"
+            },
+            "direction": {
+              "enum": [
+                "left",
+                "right"
+              ]
+            }
+          },
+          "required": [
+            "type",
+            "direction"
+          ]
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "const": "language.toggle"
+            }
+          },
+          "required": [
+            "type"
+          ]
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "const": "symbols.toggle"
+            }
+          },
+          "required": [
+            "type"
+          ]
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "const": "voice.toggle"
+            }
+          },
+          "required": [
+            "type"
+          ]
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "const": "keyboard.hide"
+            }
+          },
+          "required": [
+            "type"
+          ]
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "const": "ui.focus.move"
+            },
+            "direction": {
+              "enum": [
+                "left",
+                "right",
+                "up",
+                "down"
+              ]
+            }
+          },
+          "required": [
+            "type",
+            "direction"
+          ]
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "const": "ui.focus.activate"
+            }
+          },
+          "required": [
+            "type"
+          ]
+        }
+      ],
+      "description": "Only allowlisted actions; no arbitrary commands, intents, executable code or shell."
+    },
+    "deviceMatch": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "host": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "manufacturer": {
+              "type": "string",
+              "minLength": 1
+            },
+            "model": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "minProperties": 1
+        },
+        "input": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "source": {
+              "enum": [
+                "keyboard",
+                "dpad"
+              ]
+            },
+            "name": {
+              "type": "string",
+              "minLength": 1
+            },
+            "descriptor": {
+              "type": "string",
+              "minLength": 1
+            },
+            "vendor_id": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "product_id": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "is_external": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "source"
+          ]
+        }
+      },
+      "required": [
+        "input"
+      ]
+    }
+  },
+  "anyOf": [
+    {
+      "required": [
+        "bindings"
+      ]
+    },
+    {
+      "required": [
+        "keymap"
+      ]
+    }
+  ]
+}

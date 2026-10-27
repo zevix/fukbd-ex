@@ -1,0 +1,194 @@
+{
+  "schema_version": "2.1",
+  "id": "example.titan-illustrative",
+  "name": "Titan-style keyboard — illustrative, NOT measured",
+  "description": "Converted from the v0.5 example. Standard PC Hebrew positions: tav, final pe and final tsadi sit on keys the Titan Pocket lacks. M1 replaces this with a layout measured on the Titan 2. Do not ship.",
+  "products": [
+    "android_physical"
+  ],
+  "scope": "ime_active",
+  "languages": [
+    "en",
+    "he"
+  ],
+  "default_language": "en",
+  "behavior": {
+    "unmatched_key": "pass_through"
+  },
+  "priority": 100,
+  "device_match": {
+    "host": {
+      "manufacturer": "Unihertz",
+      "model": "Titan Pocket"
+    },
+    "input": {
+      "source": "keyboard",
+      "is_external": false
+    }
+  },
+  "bindings": [
+    {
+      "id": "lang_alt_space",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "repeat": "first",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ],
+          "none": [
+            "CTRL",
+            "META"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "voice_ctrl_space",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "repeat": "first",
+        "modifiers": {
+          "all": [
+            "CTRL"
+          ],
+          "none": [
+            "ALT",
+            "META"
+          ]
+        }
+      },
+      "action": {
+        "type": "voice.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "symbols_sym",
+      "trigger": {
+        "key_code": "KEYCODE_SYM",
+        "phase": "up",
+        "repeat": "first"
+      },
+      "action": {
+        "type": "symbols.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "symbol_q_exclamation",
+      "trigger": {
+        "key_code": "KEYCODE_Q",
+        "phase": "down",
+        "repeat": "first",
+        "modifiers": {
+          "none": [
+            "ALT",
+            "CTRL",
+            "META"
+          ]
+        }
+      },
+      "when": {
+        "mode": "symbols"
+      },
+      "action": {
+        "type": "text.type",
+        "text": "!"
+      },
+      "consume": true
+    },
+    {
+      "id": "symbol_w_at",
+      "trigger": {
+        "key_code": "KEYCODE_W",
+        "phase": "down",
+        "repeat": "first",
+        "modifiers": {
+          "none": [
+            "ALT",
+            "CTRL",
+            "META"
+          ]
+        }
+      },
+      "when": {
+        "mode": "symbols"
+      },
+      "action": {
+        "type": "text.type",
+        "text": "@"
+      },
+      "consume": true
+    },
+    {
+      "id": "symbol_e_hash",
+      "trigger": {
+        "key_code": "KEYCODE_E",
+        "phase": "down",
+        "repeat": "first",
+        "modifiers": {
+          "none": [
+            "ALT",
+            "CTRL",
+            "META"
+          ]
+        }
+      },
+      "when": {
+        "mode": "symbols"
+      },
+      "action": {
+        "type": "text.type",
+        "text": "#"
+      },
+      "consume": true
+    }
+  ],
+  "keymap": {
+    "he": {
+      "normal": {
+        "KEYCODE_GRAVE": ";",
+        "KEYCODE_Q": "/",
+        "KEYCODE_W": "'",
+        "KEYCODE_E": "ק",
+        "KEYCODE_R": "ר",
+        "KEYCODE_T": "א",
+        "KEYCODE_Y": "ט",
+        "KEYCODE_U": "ו",
+        "KEYCODE_I": "ן",
+        "KEYCODE_O": "ם",
+        "KEYCODE_P": "פ",
+        "KEYCODE_LEFT_BRACKET": "]",
+        "KEYCODE_RIGHT_BRACKET": "[",
+        "KEYCODE_A": "ש",
+        "KEYCODE_S": "ד",
+        "KEYCODE_D": "ג",
+        "KEYCODE_F": "כ",
+        "KEYCODE_G": "ע",
+        "KEYCODE_H": "י",
+        "KEYCODE_J": "ח",
+        "KEYCODE_K": "ל",
+        "KEYCODE_L": "ך",
+        "KEYCODE_SEMICOLON": "ף",
+        "KEYCODE_APOSTROPHE": ",",
+        "KEYCODE_Z": "ז",
+        "KEYCODE_X": "ס",
+        "KEYCODE_C": "ב",
+        "KEYCODE_V": "ה",
+        "KEYCODE_B": "נ",
+        "KEYCODE_N": "מ",
+        "KEYCODE_M": "צ",
+        "KEYCODE_COMMA": "ת",
+        "KEYCODE_PERIOD": "ץ",
+        "KEYCODE_SLASH": "."
+      }
+    }
+  }
+}

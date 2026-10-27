@@ -1,0 +1,64 @@
+{
+  "schema_version": "2.1",
+  "id": "fixture.base",
+  "name": "Fixture base",
+  "products": [
+    "android_physical"
+  ],
+  "scope": "ime_active",
+  "languages": [
+    "en",
+    "he"
+  ],
+  "default_language": "en",
+  "behavior": {
+    "unmatched_key": "pass_through"
+  },
+  "device_match": {
+    "input": {
+      "source": "keyboard"
+    }
+  },
+  "bindings": [
+    {
+      "id": "lang_toggle",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    },
+    {
+      "id": "lang_toggle",
+      "trigger": {
+        "key_code": "KEYCODE_SPACE",
+        "phase": "down",
+        "modifiers": {
+          "all": [
+            "ALT"
+          ]
+        }
+      },
+      "action": {
+        "type": "language.toggle"
+      },
+      "consume": true
+    }
+  ],
+  "keymap": {
+    "he": {
+      "normal": {
+        "KEYCODE_A": "ש",
+        "KEYCODE_T": "א"
+      }
+    }
+  }
+}
