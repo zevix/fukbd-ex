@@ -1,0 +1,5 @@
+// Applied by the FUTO fork's settings.gradle when -Pfukbd.ex.dir is set (fukbd-docs M0 design.md D-2).
+// Adds the pure-Kotlin core as a subproject of the fork's build.
+def exDir = new File(providers.gradleProperty('fukbd.ex.dir').get())
+include ':fukbd-core'
+project(':fukbd-core').projectDir = new File(exDir, 'core')

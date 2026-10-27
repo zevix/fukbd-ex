@@ -1,0 +1,45 @@
+// Applied at the end of the FUTO fork's build.gradle when -Pfukbd.ex.dir is set (fukbd-docs M0 design.md D-2).
+// Adds the `fukbd` flavor dimension with the phone and TV apps. Our Android sources join the app's
+// source set only in these flavors; a build without -Pfukbd.ex.dir never sees them.
+def exDir = new File(project.property('fukbd.ex.dir').toString())
+def androidSrc = new File(exDir, 'android/src/main')
+
+android {
+    flavorDimensions = ['buildType', 'fukbd']
+
+    productFlavors {
+        fukbdPhone {
+            dimension 'fukbd'
+            applicationId 'net.z33v.fukbd'
+            buildConfigField 'String', 'FUKBD_PRODUCT', '"android_physical"'
+        }
+        fukbdTv {
+            dimension 'fukbd'
+            applicationId 'net.z33v.fukbd.tv'
+            buildConfigField 'String', 'FUKBD_PRODUCT', '"android_tv"'
+        }
+    }
+
+    sourceSets {
+        ['fukbdPhone', 'fukbdTv'].each { name ->
+            getByName(name) {
+                java.srcDirs += [new File(androidSrc, 'kotlin')]
+                res.srcDirs += [new File(androidSrc, 'res')]
+                assets.srcDirs += [new File(androidSrc, 'assets')]
+                manifest.srcFile new File(androidSrc, 'AndroidManifest.xml')
+            }
+        }
+        // Device tests (R8, R9) join FUTO's androidTest sources for our flavors only.
+        ['androidTestFukbdPhone', 'androidTestFukbdTv'].each { name ->
+            getByName(name) {
+                java.srcDirs += [new File(exDir, 'android/src/androidTest/kotlin')]
+                manifest.srcFile new File(exDir, 'android/src/androidTest/AndroidManifest.xml')
+            }
+        }
+    }
+}
+
+dependencies {
+    fukbdPhoneImplementation project(':fukbd-core')
+    fukbdTvImplementation project(':fukbd-core')
+}

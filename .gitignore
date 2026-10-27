@@ -1,5 +1,7 @@
 .gradle/
-build/
+# Gradle output only; /build/ holds our build scripts and is tracked.
+/core/build/
+/android/build/
 out/
 local.properties
 .idea/
