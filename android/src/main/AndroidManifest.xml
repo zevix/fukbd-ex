@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Merged into the FUTO fork's manifest for the fukbdPhone and fukbdTv flavors only. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <!-- Created before any service: installs the hardware-key hook (design.md A-3). -->
+        <provider
+            android:name="net.z33v.fukbd.android.FukbdInit"
+            android:authorities="${applicationId}.fukbd-init"
+            android:exported="false"
+            android:initOrder="1000" />
+
+        <activity
+            android:name="net.z33v.fukbd.android.DiagnosticsActivity"
+            android:label="@string/fukbd_diagnostics_name"
+            android:taskAffinity="${applicationId}.diagnostics"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

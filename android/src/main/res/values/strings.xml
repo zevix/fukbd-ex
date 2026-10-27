@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Overrides FUTO's english_ime_name in our flavors: our builds must not be called "FUTO Keyboard". -->
+    <string name="english_ime_name" translatable="false">fukbd keyboard</string>
+    <string name="fukbd_diagnostics_name" translatable="false">fukbd key diagnostics</string>
+</resources>
