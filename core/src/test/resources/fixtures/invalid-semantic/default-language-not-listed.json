@@ -7,7 +7,7 @@
   ],
   "scope": "ime_active",
   "languages": [
-    "en"
+    "he"
   ],
   "default_language": "en",
   "behavior": {
@@ -35,5 +35,13 @@
       },
       "consume": true
     }
-  ]
+  ],
+  "keymap": {
+    "he": {
+      "normal": {
+        "KEYCODE_A": "ש",
+        "KEYCODE_T": "א"
+      }
+    }
+  }
 }

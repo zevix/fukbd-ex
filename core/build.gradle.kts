@@ -23,6 +23,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.1")
 
     testImplementation(kotlin("test"))
+    testImplementation(kotlin("reflect"))
     testImplementation("junit:junit:4.13.2")
     // Test oracle only (design.md A-4): the JSON Schema must agree with ProfileParser.
     testImplementation("com.networknt:json-schema-validator:1.5.6")
